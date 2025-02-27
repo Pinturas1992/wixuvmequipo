@@ -1,0 +1,8 @@
+
+		window.consentPolicyManager.init({
+		baseUrl: location.hostname,
+		consentPolicy: JSON.parse('{"essential":true,"functional":true,"analytics":true,"advertising":true,"dataToThirdParty":true}')
+		});
+		var hostNames = window.wixTagManager.HOST_NAMES;
+		window.wixTagManager.init(hostNames.SUPPORT, 'es');
+		
